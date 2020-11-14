@@ -86,6 +86,7 @@ namespace Dkbe.Certifier.Fips
             }
 
             AddSubjectName(opts);
+            SetSelfSigned(opts); // set subject = issuer --> self sign!
             AddStartEndDate(opts.ValidityPeriod.StartDateUtc, opts.ValidityPeriod.EndDateUtc);
             AddSerialNumber();
             AddPublicKey(pKey);

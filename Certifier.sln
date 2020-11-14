@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CertifierConsole", "Example
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Certifier.Fips", "src\Certifier.Fips\Certifier.Fips.csproj", "{C24ED8FC-22C4-49FC-8BC0-D72AF9F5E8C4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Certifier.Storage", "src\Certifier.Storage\Certifier.Storage.csproj", "{0F66D359-AC92-47C0-8889-E28A3ADC3F9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{C24ED8FC-22C4-49FC-8BC0-D72AF9F5E8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C24ED8FC-22C4-49FC-8BC0-D72AF9F5E8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C24ED8FC-22C4-49FC-8BC0-D72AF9F5E8C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F66D359-AC92-47C0-8889-E28A3ADC3F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F66D359-AC92-47C0-8889-E28A3ADC3F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F66D359-AC92-47C0-8889-E28A3ADC3F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F66D359-AC92-47C0-8889-E28A3ADC3F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

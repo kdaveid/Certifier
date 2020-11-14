@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Description>Storage lib</Description>
+    <Authors>David E. Keller</Authors>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>    <RootNamespace>Dkbe.Certifier.Storage</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ben.Demystifier" Version="0.1.6" />
+    <PackageReference Include="BouncyCastle.NetCore" Version="1.8.8" />
+  </ItemGroup>
+
+</Project>
