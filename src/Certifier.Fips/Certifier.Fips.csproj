@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Fips certificate library with Bouncy Castle (fips 1.0.1)</Description>
+    <Authors>David E. Keller</Authors>
+    <LangVersion>8.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Dkbe.Certifier.Fips</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ben.Demystifier" Version="0.1.6" />
+    <PackageReference Include="System.Collections.Immutable" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Certifier.Common\Certifier.Common.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="bc-fips-1.0.1">
+      <HintPath>..\..\externals\bc-fips-1.0.1.dll</HintPath>
+      <Aliases>Fips</Aliases>
+    </Reference>
+  </ItemGroup>
+
+</Project>
