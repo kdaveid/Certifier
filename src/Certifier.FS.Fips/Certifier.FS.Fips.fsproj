@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Certifier.FS.Common\Certifier.FS.Common.fsproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="bc-fips-1.0.1">
+      <HintPath>..\..\externals\bc-fips-1.0.1.dll</HintPath>
+      <Aliases>Fips</Aliases>
+    </Reference>
+  </ItemGroup>
+  
+</Project>

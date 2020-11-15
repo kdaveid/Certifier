@@ -2,7 +2,7 @@
 namespace Dkbe.Certifier.FS.Console
 
 open System
-open Certifier.FS.Common
+open Certifier.FS.Common.Models
 
 module ConsoleApp = 
     [<EntryPoint>]
