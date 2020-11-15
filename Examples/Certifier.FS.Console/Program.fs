@@ -2,20 +2,7 @@
 namespace Dkbe.Certifier.FS.Console
 
 open System
-type ValidityPeriod = 
-    {
-        StartDateUtc : DateTime
-        EndDateUtc : DateTime
-    }
-
-type CertOptions = 
-    { 
-        ValidityPeriod : ValidityPeriod
-        CommonName : string
-        Country : string 
-    }
-
-    
+open Certifier.FS.Common
 
 module ConsoleApp = 
     [<EntryPoint>]
