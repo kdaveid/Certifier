@@ -18,4 +18,4 @@ module ConsoleApp =
                 }
             }
         Console.WriteLine("{0}", certOpts.CommonName)
-        0 // return an integer exit code
+        0 
